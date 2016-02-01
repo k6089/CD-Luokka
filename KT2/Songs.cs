@@ -10,9 +10,15 @@ namespace KT2
     {
         //Put here song name, artist and lenght
 
-        public string Name { get; set; }
-        public string Artisti { get; set; }
+        public string CDName { get; set; }
+        public string TrackName { get; set; }
+        public string Artist { get; set; }
         public int Lenght { get; set; }
+
+        public override string ToString()
+        {
+            return CDName + " " + TrackName + " " + Artist + " " + Lenght;
+        }
 
     }
 }

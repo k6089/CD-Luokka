@@ -13,5 +13,10 @@ namespace KT2
         public string Name { get; set; }
         public string Artist { get; set; }
         public double Price { get; set; }
+
+        public override string ToString()
+        {
+            return Name + " " + Artist + " " + Price;
+        }
     }
 }
