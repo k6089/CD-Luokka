@@ -45,6 +45,42 @@ namespace KT2
             Songs MyGodGivenRightXII = new Songs { CDName = "My God-Given Right", TrackName = "Claws", Artist = "Helloween", Lenght = 5.52};
             Songs MyGodGivenRightXIII = new Songs { CDName = "My God-Given Right", TrackName = "You, Still of War", Artist = "Helloween", Lenght = 7.21};
 
+            // add CDs to collection
+
+            myCDs.AddCD(disc1);
+            myCDs.AddCD(disc2);
+
+            // and songs to CDs
+
+            mySongs.AddSong(EndlessFormsTrackOne);
+            mySongs.AddSong(EndlessFormsTrackTwo);
+            mySongs.AddSong(EndlessFormsTrackThree);
+            mySongs.AddSong(EndlessFormsTrackFour);
+            mySongs.AddSong(EndlessFormsTrackFive);
+            mySongs.AddSong(EndlessFormsTrackSix);
+            mySongs.AddSong(EndlessFormsTrackSeven);
+            mySongs.AddSong(EndlessFormsTrackEight);
+            mySongs.AddSong(EndlessFormsTrackNine);
+            mySongs.AddSong(EndlessFormsTrackTen);
+            mySongs.AddSong(EndlessFormsTrackEleven);
+
+            mySongs.AddSong(MyGodGivenRightI);
+            mySongs.AddSong(MyGodGivenRightII);
+            mySongs.AddSong(MyGodGivenRightIII);
+            mySongs.AddSong(MyGodGivenRightIV);
+            mySongs.AddSong(MyGodGivenRightV);
+            mySongs.AddSong(MyGodGivenRightVI);
+            mySongs.AddSong(MyGodGivenRightVII);
+            mySongs.AddSong(MyGodGivenRightVIII);
+            mySongs.AddSong(MyGodGivenRightIX);
+            mySongs.AddSong(MyGodGivenRightX);
+            mySongs.AddSong(MyGodGivenRightXI);
+            mySongs.AddSong(MyGodGivenRightXII);
+            mySongs.AddSong(MyGodGivenRightXIII);
+
+            //Testing to get one song
+            
+
 
 
         }

@@ -19,6 +19,5 @@ namespace KT2
         {
             return CDName + " " + TrackName + " " + Artist + " " + Lenght;
         }
-
     }
 }
