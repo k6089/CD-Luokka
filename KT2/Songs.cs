@@ -13,7 +13,7 @@ namespace KT2
         public string CDName { get; set; }
         public string TrackName { get; set; }
         public string Artist { get; set; }
-        public int Lenght { get; set; }
+        public double Lenght { get; set; }
 
         public override string ToString()
         {
